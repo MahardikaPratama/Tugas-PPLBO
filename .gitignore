@@ -39,4 +39,6 @@ inventory-service/docker/mysql/data/mysql.sock
 order-service/mysql/mysql.sock
 inventory-service/mvnw.cmd
 order-service/mvnw.cmd
-'product-service/mvnw.cmd
+product-service/mvnw.cmd
+
+data/
