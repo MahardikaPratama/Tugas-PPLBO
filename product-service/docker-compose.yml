@@ -1,0 +1,13 @@
+version: '4'
+services:
+  mongodb:
+    image: mongo:latest  # Menggunakan MongoDB versi 7.0.5
+    container_name: mongodb  # Menetapkan nama container sebagai "mongodb"
+    ports:
+      - "27017:27017"  # Mengekspos port 27017 agar bisa diakses dari luar
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root  # Username untuk akses MongoDB
+      MONGO_INITDB_ROOT_PASSWORD: password  # Password untuk akses MongoDB
+      MONGO_INITDB_DATABASE: product-service  # Nama database default
+    volumes:
+      - ./data:/data/db  # Menyimpan data MongoDB secara permanen di host
