@@ -40,5 +40,6 @@ order-service/mysql/mysql.sock
 inventory-service/mvnw.cmd
 order-service/mvnw.cmd
 product-service/mvnw.cmd
+api-gateway/mvnw.cmd
 
 data/
