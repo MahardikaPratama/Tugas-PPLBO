@@ -1,5 +1,7 @@
 package com.techie.microservice.notification;
 
+import com.techie.microservices.notification.NotificationServiceApplication;
+
 import org.springframework.boot.SpringApplication;
 
 public class TestNotificationServiceApplication {
